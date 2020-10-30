@@ -1,0 +1,9 @@
+﻿@model IEnumerable<string>
+<div id="5">
+    @foreach (var item in Model)
+    {
+        <input type="checkbox" name="Inches[]" value="@item"/>
+        <span>@item</span>
+        <b>&nbsp;</b>
+    }
+</div>
